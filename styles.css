@@ -45,6 +45,7 @@ body {
     color: #0e0e0e !important;
 }
 
+
 /* ---------- HERO ---------- */
 .hero {
     max-width: 1200px;
@@ -77,6 +78,18 @@ body {
 }
 
 .projects h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #9fd3c7;
+}
+/* ---------- SKILL ---------- */
+
+.skill{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.skill h3 {
     font-size: 1.8rem;
     margin-bottom: 30px;
     color: #9fd3c7;
