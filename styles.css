@@ -127,3 +127,55 @@ body {
     line-height: 1.6;
     color: #ddd;
 }
+
+/* ---------- SKILLS ---------- */
+.skills {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.skills h3 {
+    font-size: 1.6rem;
+    color: #9fd3c7;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+}
+
+/* ITEM */
+.skill {
+    background: #151515;
+    border-radius: 14px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(159, 211, 199, 0.15);
+}
+
+/* ICON */
+.skill img {
+    width: 48px;
+    height: 48px;
+    filter: brightness(0) saturate(100%) 
+            invert(78%) sepia(22%) 
+            saturate(408%) hue-rotate(110deg);
+}
+
+/* TEXTO */
+.skill span {
+    font-size: 0.9rem;
+    color: #9fd3c7;
+}
