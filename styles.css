@@ -33,15 +33,15 @@ body {
 .header-right a {
     margin-left: 15px;
     text-decoration: none;
-    color: #f1a7b6;
-    border: 1px solid #f1a7b6;
+    color: #9fd3c7;
+    border: 1px solid #9fd3c7;
     padding: 6px 10px;
     border-radius: 6px;
     font-size: 0.9rem;
 }
 
 .resume {
-    background: #f1a7b6;
+    background:#9fd3c7;
     color: #0e0e0e !important;
 }
 
@@ -59,14 +59,14 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 3px solid #f1a7b6;
+    border: 3px solid #9fd3c7;
 }
 
 .description {
     max-width: 600px;
     font-size: 1.2rem;
     line-height: 1.7;
-    color: #f1bfc9;
+    color: #9fd3c7;
 }
 
 /* ---------- PROJECTS ---------- */
@@ -112,7 +112,7 @@ body {
 }
 
 .card-content h3 {
-    color: #f1a7b6;
+    color: #9fd3c7;
     margin-bottom: 5px;
 }
 
