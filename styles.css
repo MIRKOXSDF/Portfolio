@@ -107,7 +107,7 @@ body {
     background: #181818;
     border-radius: 16px;
     overflow: hidden;
-    border: 3px solid transparent;
+    border: 1px solid transparent;
     transition: 
         transform 0.35s ease,
         box-shadow 0.35s ease,
@@ -124,7 +124,7 @@ body {
 }
 /* IMAGE */
 .project-card img {
-    width: 100%;
+    width: 200%;
     height: 200px;
     object-fit: cover;
     display: block;
