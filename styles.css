@@ -91,6 +91,12 @@ body {
     border: 1px solid transparent;
     transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
 }
+/* ---------- PROJECTS GRID ---------- */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 30px;
+}
 
 /* BORDE VERDE AL HOVER */
 .card:hover {
@@ -99,20 +105,7 @@ body {
     box-shadow: 0 0 0 1px rgba(159, 211, 199, 0.3),
                 0 15px 40px rgba(159, 211, 199, 0.15);
 }
-.card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 14px;
-    border: 1px solid #9fd3c7;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
 
-.card:hover::before {
-    opacity: 1;
-}
 /* ---------- SKILLS SECTION ---------- */
 .skills {
     max-width: 1100px;
