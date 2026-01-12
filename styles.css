@@ -82,6 +82,37 @@ body {
     margin-bottom: 30px;
     color: #9fd3c7;
 }
+/* ---------- PROJECT CARD ---------- */
+.card {
+    background: #181818;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid transparent;
+    transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* BORDE VERDE AL HOVER */
+.card:hover {
+    transform: translateY(-6px);
+    border: 1px solid #9fd3c7;
+    box-shadow: 0 0 0 1px rgba(159, 211, 199, 0.3),
+                0 15px 40px rgba(159, 211, 199, 0.15);
+}
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    border: 1px solid #9fd3c7;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
 /* ---------- SKILLS SECTION ---------- */
 .skills {
     max-width: 1100px;
