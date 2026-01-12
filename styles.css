@@ -107,18 +107,21 @@ body {
     background: #181818;
     border-radius: 16px;
     overflow: hidden;
-    border: 1px solid transparent; /* IMPORTANTE */
+    border: 1px solid transparent;
     transition: 
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        border 0.3s ease;
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border 0.35s ease;
 }
 
 .project-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    border: 1px solid #9fd3c7;
+    box-shadow:
+        0 0 0 1px rgba(159, 211, 199, 0.35),
+        0 0 18px rgba(159, 211, 199, 0.35),
+        0 20px 40px rgba(0, 0, 0, 0.6);
 }
-
 /* IMAGE */
 .project-card img {
     width: 100%;
