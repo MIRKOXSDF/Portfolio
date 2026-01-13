@@ -141,6 +141,7 @@ body {
     margin-bottom: 40px;
 }
 
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -156,6 +157,11 @@ body {
     align-items: center;
     gap: 14px;
     transition: transform .3s, box-shadow .3s;
+}
+.skill-card span {
+    color: #9fd3c7; /* verde */
+    font-size: 0.95rem;
+    font-weight: 500;
 }
 
 .skill-card:hover {
