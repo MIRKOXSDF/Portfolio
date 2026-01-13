@@ -135,7 +135,7 @@ body {
 
 /* TEXT AREA */
 .project-info {
-    padding: 50px;
+    padding: 30px;
 }
 
 .project-info h3 {
@@ -215,6 +215,63 @@ body {
 
 /* TEXT */
 .skill-card span {
+    font-size: 0.9rem;
+    color: #9fd3c7;
+}
+/* ---------- CONTACT ---------- */
+.contact {
+    max-width: 1100px;
+    margin: 140px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact h4 {
+    font-size: 1.7rem;
+    color: #9fd3c7;
+    margin-bottom: 40px;
+}
+
+/* GRID */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 30px;
+}
+
+/* CARD */
+.contact-card {
+    background: #141414;
+    border-radius: 16px;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    border: 1px solid #9fd3c7;
+    box-shadow:
+        0 0 15px rgba(159, 211, 199, 0.35),
+        0 12px 35px rgba(159, 211, 199, 0.2);
+}
+
+/* ICON */
+.contact-card img {
+    width: 46px;
+    height: 46px;
+    filter: brightness(0) saturate(100%)
+            invert(78%) sepia(22%)
+            saturate(408%) hue-rotate(110deg);
+}
+
+/* TEXT */
+.contact-card span {
     font-size: 0.9rem;
     color: #9fd3c7;
 }
