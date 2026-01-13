@@ -124,7 +124,7 @@ body {
 }
 /* IMAGE */
 .project-card img {
-    width: 400%;
+    width: 100%;
     height: 260px;
     object-fit: cover;
     display: block;
@@ -132,7 +132,7 @@ body {
 
 /* TEXT AREA */
 .project-info {
-    padding: 30px;
+    padding: 50px;
 }
 
 .project-info h3 {
