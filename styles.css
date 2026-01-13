@@ -225,14 +225,47 @@ body {
             invert(78%) sepia(22%)
             saturate(408%) hue-rotate(110deg);
 }
+.contact-card img 
+{ width: 48px; height: 48px; filter: brightness(0) saturate(100%) 
+    invert(78%) 
+    sepia(22%) saturate(408%)
+     hue-rotate(110deg); }
 
 /* TEXT */
 .contact-card span {
     font-size: 0.9rem;
     color: #9fd3c7;
 }
-.contact-card img 
-{ width: 48px; height: 48px; filter: brightness(0) saturate(100%) 
-    invert(78%) 
-    sepia(22%) saturate(408%)
-     hue-rotate(110deg); }
+.resume-btn {
+    background: #9fd3c7;
+    border-radius: 16px;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    grid-column: 1 / -1; /* ocupa el centro abajo */
+    
+    box-shadow:
+        0 0 0 1px rgba(159, 211, 199, 0.4),
+        0 0 18px rgba(159, 211, 199, 0.6),
+        0 0 40px rgba(159, 211, 199, 0.35);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-btn span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0e0e0e;
+    letter-spacing: 0.5px;
+}
+
+.resume-btn:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow:
+        0 0 0 1px rgba(159, 211, 199, 0.8),
+        0 0 25px rgba(159, 211, 199, 0.9),
+        0 0 60px rgba(159, 211, 199, 0.6);
+}
