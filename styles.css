@@ -231,3 +231,8 @@ body {
     font-size: 0.9rem;
     color: #9fd3c7;
 }
+.contact-card img 
+{ width: 48px; height: 48px; filter: brightness(0) saturate(100%) 
+    invert(78%) 
+    sepia(22%) saturate(408%)
+     hue-rotate(110deg); }
