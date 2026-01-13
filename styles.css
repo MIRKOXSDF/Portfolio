@@ -203,7 +203,7 @@ body {
 /* CARD */
 .contact-card {
     background: #141414;
-    border-radius: 16px;
+    border-radius: 13px;
     padding: 30px 15px;
     display: flex;
     flex-direction: column;
