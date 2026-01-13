@@ -187,7 +187,12 @@ body {
     color: #9fd3c7;
     margin-bottom: 40px;
 }
-
+.contact-text {
+    max-width: 520px;
+    margin: 25px auto 60px;
+    color: #aaa;
+    line-height: 1.6;
+}
 /* GRID */
 .contact-grid {
     display: grid;
@@ -232,9 +237,7 @@ body {
      hue-rotate(110deg); }
      
 
-.contact-text {
-    margin-bottom: 40px;
-}
+
 
 /* TEXT */
 .contact-card span {
