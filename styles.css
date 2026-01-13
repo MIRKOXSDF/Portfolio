@@ -162,7 +162,13 @@ body {
     transform: translateY(-8px);
     box-shadow: 0 12px 35px rgba(159,211,199,.2);
 }
-
+/* ICON GREEN */ 
+.skill-card img 
+{ width: 48px; height: 48px; filter: brightness(0) saturate(100%) 
+    invert(78%) 
+    sepia(22%) saturate(408%)
+     hue-rotate(110deg); }
+     
 .skill-card img {
     width: 48px;
     height: 48px;
