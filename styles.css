@@ -238,8 +238,8 @@ body {
 }
 .resume-btn {
     background: #9fd3c7;
-    border-radius: 16px;
-    padding: 30px 15px;
+    border-radius: 12px;
+    padding: 12px 26px;
     display: flex;
     justify-content: center;
     align-items: center;
