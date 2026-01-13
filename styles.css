@@ -124,7 +124,7 @@ body {
 }
 /* IMAGE */
 .project-card img {
-    width: 100%;
+    width: 200%;
     height: 220px;
     object-fit: cover;
     display: block;
