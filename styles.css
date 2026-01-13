@@ -125,14 +125,14 @@ body {
 /* IMAGE */
 .project-card img {
     width: 400%;
-    height: 220px;
+    height: 260px;
     object-fit: cover;
     display: block;
 }
 
 /* TEXT AREA */
 .project-info {
-    padding: 20px;
+    padding: 30px;
 }
 
 .project-info h3 {
