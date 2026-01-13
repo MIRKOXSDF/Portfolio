@@ -203,7 +203,7 @@ body {
 /* CARD */
 .contact-card {
     background: #141414;
-    border-radius: 13px;
+    border-radius: 16px;
     padding: 30px 15px;
     display: flex;
     flex-direction: column;
@@ -253,7 +253,7 @@ body {
 
     background: #9fffe0;
     color: #000;
-    border-radius: 999px;
+    border-radius: 500px;
 
     text-decoration: none;
     font-weight: 500;
