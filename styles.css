@@ -222,7 +222,7 @@ body {
 
 .contact-card:hover {
     transform: translateY(-8px);
-    border: 1px solid #9fd3c7;
+
     box-shadow:
         0 0 15px rgba(159, 211, 199, 0.35),
         0 12px 35px rgba(159, 211, 199, 0.2);
