@@ -230,6 +230,11 @@ body {
     invert(78%) 
     sepia(22%) saturate(408%)
      hue-rotate(110deg); }
+     
+
+.contact-text {
+    margin-bottom: 40px;
+}
 
 /* TEXT */
 .contact-card span {
