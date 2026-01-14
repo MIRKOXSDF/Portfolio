@@ -54,7 +54,9 @@ body {
     box-shadow: 0 8px 20px rgba(159,211,199,.3);
 }
 .skills {
-    scroll-margin-top: 160px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .resume {
