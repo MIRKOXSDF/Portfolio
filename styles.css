@@ -53,6 +53,12 @@ body {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(159,211,199,.3);
 }
+.skills {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .resume {
     background: #9fd3c7;
     color: #0e0e0e !important;
