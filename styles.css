@@ -54,7 +54,7 @@ body {
     box-shadow: 0 8px 20px rgba(159,211,199,.3);
 }
 .skills {
-    min-height: 50vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
