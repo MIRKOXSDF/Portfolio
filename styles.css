@@ -98,9 +98,8 @@ body {
 
 .project-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0,0,0,.6);
-    border: 1px solid #9fd3c7; /* 👈 borde verde */
     box-shadow: 0 12px 35px rgba(159,211,199,.2);
+    border: 1px solid #9fd3c7; /* 👈 borde verde */
     
 }
 .project-card img {
