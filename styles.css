@@ -55,6 +55,7 @@ body {
 }
 .skills {
     scroll-margin-top: 160px;
+    justify-content: center;
 }
 .resume {
     background: #9fd3c7;
